@@ -1,0 +1,23 @@
+market:
+  initial_price: 100
+  matching_algorithm: prorata
+  time_steps: 1000
+
+bots:
+  - name: RandomTrader1
+    type: random
+    cash_balance: 5000
+    inventory: 20
+    parameters:
+
+  - name: RandomTrader2
+    type: random
+    cash_balance: 3000
+    inventory: 40
+    parameters:
+
+  - name: RandomTrader3
+    type: random
+    cash_balance: 10000
+    inventory: 300
+    parameters:
